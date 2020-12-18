@@ -23,6 +23,23 @@ Vanilla Template
 https://templatemo.com/tm-526-vanilla
 -->
 <body>
+    <script>
+
+        var x=window.prompt("Guess the number bewteen 1~10");
+        y=parseInt(x);
+        var z=Math.floor((Math.random()*10)+1);
+        while(y != z){
+            var x=window.prompt("Guess the number bewteen 1~10");
+            y=parseInt(x);
+        
+        }
+
+        document.writeln("<p>Congradulation!");
+
+
+        
+    </script>
+
 
     <div class="fixed-side-navbar">
         <ul class="nav flex-column">
